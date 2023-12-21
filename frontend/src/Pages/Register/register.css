@@ -1,0 +1,9 @@
+.register-err {
+    text-align: right;
+    margin-top: 12px;
+    color: #ff2d1b;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+}

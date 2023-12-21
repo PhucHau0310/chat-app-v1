@@ -1,0 +1,114 @@
+.list-friends {
+    margin: 40px 0px 0 27px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.navbar-avatar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.friends-item-name {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 100% */
+}
+
+.message-lists {
+    padding: 14px 24px 160px;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    background: #fff;
+}
+
+.message-rectangle {
+    margin: 0px auto;
+    margin-bottom: 24px;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+    background: #e6e6e6;
+}
+
+.message-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message-ava {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+
+.message-userinfo {
+    margin-left: -24px;
+}
+
+.message-name {
+    margin-bottom: 6px;
+    color: #000e08;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 100% */
+}
+
+.message-feel {
+    color: #797c7b;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+}
+
+.message-action-ago {
+    color: #797c7b;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+}
+
+.message-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    background-color: #f04a4c;
+    color: #fff;
+    margin-left: auto;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+}
+
+.message-item {
+    margin-bottom: 45px;
+}
+
+.message-create-conversation {
+    position: fixed;
+    background-color: #e6e6e6;
+    padding: 12px;
+    text-align: center;
+    font-size: 29px;
+    bottom: 91px;
+    left: 0;
+    right: 0;
+}

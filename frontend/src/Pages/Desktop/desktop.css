@@ -1,0 +1,18 @@
+.desktop {
+    /* margin-top: 0 12px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.desktop-desc {
+    margin: 0px 24px;
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+}

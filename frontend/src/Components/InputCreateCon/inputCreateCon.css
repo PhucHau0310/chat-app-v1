@@ -1,0 +1,61 @@
+.form-create-conversation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding: 24px;
+    background-color: #fff;
+}
+
+.form-create-ori {
+    position: relative;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-detail {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.con-label {
+    color: #000e08;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px; /* 100% */
+}
+
+.conversation-name,
+.friend-name {
+    padding: 12px;
+    border-radius: 12px;
+    color: #000e08;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+    letter-spacing: 0.12px;
+}
+
+.remove-con {
+    position: absolute;
+    right: 8px;
+    top: 7px;
+}
+
+.create-con {
+    margin-top: 24px;
+    border-radius: 12px;
+    color: #fff;
+    border: 1px solid #000e08;
+    opacity: 0.63;
+    background: linear-gradient(271deg, #43116a 36.61%, #0a1832 106.23%);
+    padding: 8px;
+    margin-bottom: 20px;
+}

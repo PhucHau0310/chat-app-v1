@@ -1,0 +1,85 @@
+.login {
+    padding: 17px 24px 40px;
+}
+
+.login-header {
+    margin: 60px 0px 19px;
+    text-align: center;
+    color: #000e08;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 100% */
+}
+
+.login-desc {
+    color: #797c7b;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.1px;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 2px;
+    color: #24786d;
+    /* text-align: center; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+    letter-spacing: 0.1px;
+}
+
+.login-input {
+    display: block;
+    width: 100%;
+    color: #000e08;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    padding: 8px;
+    border: 0px solid;
+    border-bottom: 1px solid #cdd1d0;
+}
+
+.login-input:focus {
+    outline: none;
+    border-bottom: 1px solid #cdd1d0;
+}
+
+.login-form-detail-2 {
+    position: relative;
+    margin-top: 30px;
+}
+
+.toggle-password {
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: 0;
+    padding: 8px;
+}
+
+.login-btn {
+    margin-top: 108px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+    background-color: #24786d;
+}
+
+.login-btn:hover {
+    background-color: #f3f6f6;
+    color: #797c7b;
+}
+
+.login-account {
+    color: #24786d;
+}

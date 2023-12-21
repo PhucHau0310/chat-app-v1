@@ -1,0 +1,121 @@
+.onboarding {
+    z-index: 1;
+    overflow-y: auto;
+    position: relative;
+    max-width: 375px;
+    padding: 20px 24px 40px;
+    background: #1a1a1a;
+}
+
+.onboarding::after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: -296px;
+    left: 133px;
+    width: 75%;
+    height: 100%;
+    border-radius: 16px;
+    transform: rotate(52.23deg);
+    opacity: 0.63;
+    background: linear-gradient(271deg, #43116a 36.61%, #0a1832 106.23%);
+    filter: blur(74px);
+}
+
+.onboarding-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.onboarding-name {
+    color: #fff;
+    /* text-align: center; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+}
+
+.onboarding-title {
+    margin: 46px 0 16px;
+    color: #fff;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 78px; /* 114.706% */
+}
+
+.onboarding-title span {
+    color: #fff;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 78px;
+}
+
+.onboarding-desc {
+    color: #b9c1be;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 26px; /* 162.5% */
+}
+
+.onboarding-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.onboarding-img {
+    margin: 38px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #a8b0af;
+    border-radius: 100%;
+}
+
+.onboarding-or {
+    margin-bottom: 30px;
+    display: block;
+    color: #d6e4e0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 14px; /* 100% */
+    letter-spacing: 0.1px;
+}
+
+.onboarding-btn {
+    padding: 16px 90px;
+    display: block;
+    width: 94%;
+    margin: 0px auto 46px;
+    border-radius: 16px;
+    color: #000e08;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 16px; /* 100% */
+}
+
+.onboarding-redirect-login {
+    text-align: center;
+    color: #b9c1be;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 14px; /* 100% */
+    letter-spacing: 0.1px;
+}
+
+.onboarding-login {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+}

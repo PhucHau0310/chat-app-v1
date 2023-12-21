@@ -1,0 +1,191 @@
+.message-user {
+    padding: 16px 24px 12px;
+}
+
+.message-user-heading {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 14px;
+    background-color: #fff;
+}
+
+.message-ava {
+    margin-left: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+}
+
+.message-user-info {
+    margin-left: 12px;
+}
+
+.info-name {
+    color: #000e08;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+
+.info-active {
+    margin-top: 4px;
+    color: #797c7b;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+}
+
+.message-calls {
+    margin-left: auto;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.message-fixed {
+    display: flex;
+    align-items: center;
+    padding: 20px 24px 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #eefaf8;
+    background: #fff;
+}
+
+.message-fixed-input {
+    width: 220px;
+    position: relative;
+    padding: 14px 33px 14px 12px;
+    margin-left: 11px;
+    border: 0px none;
+    border-radius: 12px;
+    background: #f3f6f6;
+    color: #0f0c22;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+}
+
+.message-fixed-input::placeholder {
+    width: 50%;
+}
+
+.message-files {
+    position: absolute;
+    right: 106px;
+    top: 31px;
+}
+
+.message-origin-user {
+    margin-top: 60px;
+    padding: 2px 0px 2px;
+}
+
+.message-origin-user:last-child {
+    padding-bottom: 100px;
+}
+
+.message-origin-user:first-child {
+    padding-bottom: 12px;
+}
+
+.message-text {
+    margin-left: auto;
+    max-width: 141px;
+    border-radius: 12px 0px 12px 12px;
+    padding: 12px 12px 12px 14px;
+    background-color: #20a090;
+    color: #fff;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 16px; /* 100% */
+    letter-spacing: 0.12px;
+}
+
+.message-time {
+    margin-top: 8px;
+    margin-right: 3px;
+    color: #797c7b;
+    text-align: right;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 10px; /* 100% */
+}
+
+.message-origin-ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.message-name-user {
+    color: #000e08;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px; /* 100% */
+}
+
+.message-origin-receiver {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.message-origin-receiver:first-child {
+    padding-top: 85px;
+}
+
+.message-origin-receiver:last-child {
+    padding-bottom: 100px;
+}
+
+.message-text2 {
+    margin-top: 12px;
+    border-radius: 0px 12px 12px 12px;
+    padding: 12px 14px 12px 12px;
+    max-width: 180px;
+    background-color: #f2f7fb;
+    color: #000e08;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 12px; /* 100% */
+    letter-spacing: 0.12px;
+}
+
+.message-time2 {
+    margin-top: 8px;
+    color: #797c7b;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 10px; /* 100% */
+    text-align: right;
+    margin-right: 3px;
+}
+
+.message-icon-send {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #20a090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
